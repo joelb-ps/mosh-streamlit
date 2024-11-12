@@ -1,7 +1,8 @@
 import streamlit as st
 
 # URL of your hosted HTML file on GitHub
-html_file_url = "https://joelb-ps.github.io/mosh-streamlit/funnel_analysis.html"
+html_file_url = "https://drive.google.com/file/d/1r-s-BAD5D_gfOUfXb1VY5HmdWE_35lWc/view?usp=drive_link"
+
 
 # Embed the HTML file in Streamlit using an iframe
 st.title("Funnel Analysis Dashboard")
