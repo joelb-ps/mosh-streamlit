@@ -55,4 +55,10 @@ elif page == "Detailed Funnel Analysis":
 elif page == "Demographic Analysis":
     st.title("Demographic Analysis")
     # Add content or visualizations related to demographic analysis here
-    st.write("This page will show demographic analysis. You can add charts, tables, or any analysis here.")
+     # Adjust iframe for time_at_step_1 (same as previous iframe)
+    html_file_url5 = "https://joelb-ps.github.io/mosh-streamlit/figure_2.html"
+    st.markdown(f'''
+        <iframe src="{html_file_url5}" width="120%" height="600px" 
+            style="border:none; transform: scale(0.6); transform-origin: 0 0;">
+        </iframe>
+        ''', unsafe_allow_html=True)
