@@ -20,7 +20,7 @@ if page == "Home":
     html_file_url2 = "https://joelb-ps.github.io/mosh-streamlit/figure_1.html"
     st.markdown(f'''
         <iframe src="{html_file_url2}" width="100%" height="600px" 
-            scrolling="yes" style="border:none; transform: scale(0.8); transform-origin: 0 0;">
+            scrolling="yes" style="border:none; transform: scale(0.6); transform-origin: 0 0;">
         </iframe>
         ''', unsafe_allow_html=True)
     
@@ -28,7 +28,7 @@ if page == "Home":
     html_file_url3 = "https://joelb-ps.github.io/mosh-streamlit/mock_1.html"
     st.markdown(f'''
         <iframe src="{html_file_url3}" width="100%" height="600px" 
-            scrolling="yes" style="border:none; transform: scale(0.8); transform-origin: 0 0;">
+            scrolling="yes" style="border:none; transform: scale(0.6); transform-origin: 0 0;">
         </iframe>
         ''', unsafe_allow_html=True)
 
