@@ -12,7 +12,7 @@ if page == "Home":
     # Adjust iframe for figure 6 with reduced white space and zoomed out
     html_file_url1 = "https://joelb-ps.github.io/mosh-streamlit/figure_6.html"
     st.markdown(f'''
-        <iframe src="{html_file_url1}" width="120%" height="400px" 
+        <iframe src="{html_file_url1}" width="80%" height="400px" 
             style="border:none; transform: scale(0.8); transform-origin: 0 0;"></iframe>
         ''', unsafe_allow_html=True)
     
