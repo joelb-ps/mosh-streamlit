@@ -43,7 +43,7 @@ elif page == "Detailed Funnel Analysis":
         </iframe>
         ''', unsafe_allow_html=True)
      html_file_url5 = "https://joelb-ps.github.io/mosh-streamlit/time_at_step_1.html"
-    st.markdown(f'''
+     st.markdown(f'''
         <iframe src="{html_file_url5}" width="120%" height="600px" 
             style="border:none; transform: scale(0.6); transform-origin: 0 0;">
         </iframe>
