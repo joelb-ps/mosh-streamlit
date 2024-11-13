@@ -9,24 +9,39 @@ if page == "Home":
     st.title("Mosh Hair Loss Funnel Analysis")
     st.write("This is the landing page of the dashboard. Use the sidebar to navigate to detailed analyses.")
     
-    # Adjust iframe for figure 6 with reduced white space
+    # Adjust iframe for figure 6 with reduced white space and zoomed out
     html_file_url1 = "https://joelb-ps.github.io/mosh-streamlit/figure_6.html"
-    st.markdown(f'<iframe src="{html_file_url1}" width="100%" height="400px" style="border:none;"></iframe>', unsafe_allow_html=True)
+    st.markdown(f'''
+        <iframe src="{html_file_url1}" width="100%" height="400px" 
+            style="border:none; transform: scale(0.8); transform-origin: 0 0;"></iframe>
+        ''', unsafe_allow_html=True)
     
-    # Adjust iframe for figure 1 (make it scrollable horizontally)
+    # Adjust iframe for figure 1 (make it scrollable horizontally and zoomed out)
     html_file_url2 = "https://joelb-ps.github.io/mosh-streamlit/figure_1.html"
-    st.markdown(f'<iframe src="{html_file_url2}" width="100%" height="600px" scrolling="yes" style="border:none;"></iframe>', unsafe_allow_html=True)
+    st.markdown(f'''
+        <iframe src="{html_file_url2}" width="100%" height="600px" 
+            scrolling="yes" style="border:none; transform: scale(0.8); transform-origin: 0 0;">
+        </iframe>
+        ''', unsafe_allow_html=True)
     
-    # Adjust iframe for mock_1 (make it scrollable horizontally)
+    # Adjust iframe for mock_1 (make it scrollable horizontally and zoomed out)
     html_file_url3 = "https://joelb-ps.github.io/mosh-streamlit/mock_1.html"
-    st.markdown(f'<iframe src="{html_file_url3}" width="100%" height="600px" scrolling="yes" style="border:none;"></iframe>', unsafe_allow_html=True)
+    st.markdown(f'''
+        <iframe src="{html_file_url3}" width="100%" height="600px" 
+            scrolling="yes" style="border:none; transform: scale(0.8); transform-origin: 0 0;">
+        </iframe>
+        ''', unsafe_allow_html=True)
 
 # Content for Detailed Funnel Analysis
 elif page == "Detailed Funnel Analysis":
     st.title("Funnel Analysis Dashboard")
     # Adjust iframe for funnel analysis (same as before)
     html_file_url4 = "https://joelb-ps.github.io/mosh-streamlit/funnel_analysis.html"
-    st.markdown(f'<iframe src="{html_file_url4}" width="100%" height="600px" style="border:none;"></iframe>', unsafe_allow_html=True)
+    st.markdown(f'''
+        <iframe src="{html_file_url4}" width="100%" height="600px" 
+            style="border:none; transform: scale(0.8); transform-origin: 0 0;">
+        </iframe>
+        ''', unsafe_allow_html=True)
 
 # Content for Demographic Analysis
 elif page == "Demographic Analysis":
