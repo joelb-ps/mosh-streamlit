@@ -8,22 +8,28 @@ page = st.sidebar.radio("Go to", ["Home", "Detailed Funnel Analysis", "Demograph
 if page == "Home":
     st.title("Mosh Hair Loss Funnel Analysis")
     st.write("This is the landing page of the dashboard. Use the sidebar to navigate to detailed analyses.")
+    
+    # Adjust iframe for figure 6
     html_file_url1 = "https://joelb-ps.github.io/mosh-streamlit/figure_6.html"
-    st.markdown(f'<iframe src="{html_file_url1}" width="100%" height="800"></iframe>', unsafe_allow_html=True)
+    st.markdown(f'<iframe src="{html_file_url1}" width="100%" height="600px" style="border:none;"></iframe>', unsafe_allow_html=True)
+    
+    # Adjust iframe for figure 1
     html_file_url2 = "https://joelb-ps.github.io/mosh-streamlit/figure_1.html"
-    st.markdown(f'<iframe src="{html_file_url2}" width="100%" height="800"></iframe>', unsafe_allow_html=True)
+    st.markdown(f'<iframe src="{html_file_url2}" width="100%" height="600px" style="border:none;"></iframe>', unsafe_allow_html=True)
+    
+    # Adjust iframe for mock_1
     html_file_url3 = "https://joelb-ps.github.io/mosh-streamlit/mock_1.html"
-    st.markdown(f'<iframe src="{html_file_url3}" width="100%" height="800"></iframe>', unsafe_allow_html=True)
+    st.markdown(f'<iframe src="{html_file_url3}" width="100%" height="600px" style="border:none;"></iframe>', unsafe_allow_html=True)
 
 # Content for Detailed Funnel Analysis
 elif page == "Detailed Funnel Analysis":
     st.title("Funnel Analysis Dashboard")
+    # Adjust iframe for funnel analysis
     html_file_url4 = "https://joelb-ps.github.io/mosh-streamlit/funnel_analysis.html"
-    st.markdown(f'<iframe src="{html_file_url4}" width="100%" height="800"></iframe>', unsafe_allow_html=True)
+    st.markdown(f'<iframe src="{html_file_url4}" width="100%" height="600px" style="border:none;"></iframe>', unsafe_allow_html=True)
 
 # Content for Demographic Analysis
 elif page == "Demographic Analysis":
     st.title("Demographic Analysis")
     # Add content or visualizations related to demographic analysis here
     st.write("This page will show demographic analysis. You can add charts, tables, or any analysis here.")
-    
