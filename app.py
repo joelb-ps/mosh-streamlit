@@ -8,6 +8,12 @@ page = st.sidebar.radio("Go to", ["Home", "Detailed Funnel Analysis", "Demograph
 if page == "Home":
     st.title("Mosh Hair Loss Funnel Analysis")
     st.write("This is the landing page of the dashboard. Use the sidebar to navigate to detailed analyses.")
+    html_file_url = "https://joelb-ps.github.io/mosh-streamlit/figure_6.html"
+    st.markdown(f'<iframe src="{html_file_url}" width="100%" height="800"></iframe>', unsafe_allow_html=True)
+    html_file_url = "https://joelb-ps.github.io/mosh-streamlit/figure_1.html"
+    st.markdown(f'<iframe src="{html_file_url}" width="100%" height="800"></iframe>', unsafe_allow_html=True)
+    html_file_url = https://joelb-ps.github.io/mosh-streamlit/mock_1.html"
+    st.markdown(f'<iframe src="{html_file_url}" width="100%" height="800"></iframe>', unsafe_allow_html=True)
 
 # Content for Detailed Funnel Analysis
 elif page == "Detailed Funnel Analysis":
