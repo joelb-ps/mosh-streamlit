@@ -12,7 +12,7 @@ if page == "Home":
     st.markdown(f'<iframe src="{html_file_url1}" width="100%" height="800"></iframe>', unsafe_allow_html=True)
     html_file_url2 = "https://joelb-ps.github.io/mosh-streamlit/figure_1.html"
     st.markdown(f'<iframe src="{html_file_url2}" width="100%" height="800"></iframe>', unsafe_allow_html=True)
-    html_file_url3 = https://joelb-ps.github.io/mosh-streamlit/mock_1.html"
+    html_file_url3 = "https://joelb-ps.github.io/mosh-streamlit/mock_1.html"
     st.markdown(f'<iframe src="{html_file_url3}" width="100%" height="800"></iframe>', unsafe_allow_html=True)
 
 # Content for Detailed Funnel Analysis
