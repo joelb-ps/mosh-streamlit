@@ -7,8 +7,7 @@ page = st.sidebar.radio("Go to", ["Home", "Detailed Funnel Analysis", "Demograph
 # Content for Home Page
 if page == "Home":
     st.title("Mosh Hair Loss Funnel Analysis")
-    st.write("This is the landing page of the dashboard. Use the sidebar to navigate to detailed analyses.
-             ")
+    st.write("This is the landing page of the dashboard. Use the sidebar to navigate to detailed analyses.")
 
 # Content for Detailed Funnel Analysis
 elif page == "Detailed Funnel Analysis":
@@ -21,3 +20,4 @@ elif page == "Demographic Analysis":
     st.title("Demographic Analysis")
     # Add content or visualizations related to demographic analysis here
     st.write("This page will show demographic analysis. You can add charts, tables, or any analysis here.")
+    
